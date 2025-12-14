@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/globalStyle.css" />
   </head>
   <body>
     <header class="topo">
+      <div class="container topo__container">
       <img src="src\assets\logo.svg" class="logo" />
-      <button class="topo-entrar">Entrar para próxima turma</button>
+      <button class="topo__button">Entrar para próxima turma</button>
     </header>
+    </div>
     <main>
       <section class="prox-habilidades">
-        <div class="limite">
+        <div class="container">
           <h1>Desenvolvendo <span>suas </span> próximas habilidades</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -26,7 +28,7 @@
       </section>
 
       <section class="quem-somos">
-        <div class="limite flex">
+        <div class="container flex">
           <h2>Quem somos nós?</h2>
           <p>
             It is a long established fact that a reader will be distracted by
@@ -38,18 +40,20 @@
       </section>
 
       <section class="faq">
-        <div class="limite flex-between">
-          <div class="coluna-esquerda">
+        <div class="container flex-between">
+          <div class="faq-esquerda">
             <h2>Dúvidas frequentes</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
             </p>
-            <button class="faq-entrar">Entrar para próxima turma</button>
+            <button class="faq__esquerda--entrar">
+              Entrar para próxima turma
+            </button>
           </div>
 
-          <div class="coluna-direita">
+          <div class="faq-direita">
             <article>
               <h3>Quanto custa o curso?</h3>
               <p>
@@ -90,8 +94,8 @@
         </div>
       </section>
       <section class="comentarios">
-        <div class="limite flex-between">
-          <div class="comentarios-coluna-direita">
+        <div class="container flex-between">
+          <div class="comentarios__direita">
             <h2>O que os alunos comentam?</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -99,9 +103,9 @@
               ever since the 1500s
             </p>
           </div>
-          <ul class="comentarios-coluna-esquerda">
+          <ul class="comentarios__esquerda">
             <li>
-              <div class="nome-turma">
+              <div class="comentarios__nome-turma">
                 <h2>Júlia Lima</h2>
                 <p class="turma">Aluna na turma 2019</p>
               </div>
@@ -114,7 +118,7 @@
               </p>
             </li>
             <li>
-              <div class="nome-turma">
+              <div class="comentarios__nome-turma">
                 <h2>Carlos Ino</h2>
                 <p class="turma">Aluna na turma 2020</p>
               </div>
@@ -127,7 +131,7 @@
               </p>
             </li>
             <li>
-              <div class="nome-turma">
+              <div class="comentarios__nome-turma">
                 <h2>Camila Dias</h2>
                 <p class="turma">Aluna na turma 2019</p>
               </div>
@@ -140,7 +144,7 @@
               </p>
             </li>
             <li>
-              <div class="nome-turma">
+              <div class="comentarios__nome-turma">
                 <h2>João Vaz</h2>
                 <p class="turma">Aluna na turma 2019</p>
               </div>
@@ -154,7 +158,7 @@
             </li>
 
             <li>
-              <div class="nome-turma">
+              <div class="comentarios__nome-turma">
                 <h2>Gio Oliveira</h2>
                 <p class="turma">Aluna na turma 2019</p>
               </div>
