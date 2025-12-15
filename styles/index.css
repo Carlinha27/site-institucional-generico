@@ -82,6 +82,7 @@ span {
   background-color: var(--cor-botao);
   border: 1px solid var(--cor-botao);
   color: var(--cor-acento2);
+  margin-top: 15px;
 }
 .quem-somos {
   display: flex;
@@ -220,5 +221,55 @@ footer {
   width: 178px;
 }
 button:hover {
+  cursor: pointer;
+}
+.modal {
+  background-color: var(--cor-bg2);
+  border: 2px solid var(--cor-botao);
+}
+.modal h3 {
+  font-size: var(--titulo-terceiro);
+  color: var(--cor-acento2);
+}
+.modal p {
+  font-size: var(--tamanho-texto4);
+  color: var(--cor-texto2);
+}
+.modal input {
+  background-color: var(--cor-bg1);
+  color: var(--cor-texto1);
+  font-size: var(--tamanho-texto2);
+  padding: 15px;
+  margin-bottom: 10px;
+  border: none;
+}
+.modal__button--entrar {
+  background-color: var(--cor-botao);
+  color: var(--cor-acento2);
+  padding: 15px 10px;
+  font-size: var(--tamanho-texto4);
+  border: none;
+}
+.modal__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 504px;
+  padding: 10px;
+}
+.modal__topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal__close {
+  background-image: url("../src/assets/x.svg");
+  background-color: var(--cor-bg3);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+  width: 38px;
+  height: 32px;
+  border: none;
+  padding: 0;
   cursor: pointer;
 }

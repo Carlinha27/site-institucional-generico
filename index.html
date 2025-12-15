@@ -11,7 +11,7 @@
     <header class="topo">
       <div class="container topo__container">
       <img src="src\assets\logo.svg" class="logo" />
-      <button class="topo__button">Entrar para próxima turma</button>
+      <button class="topo__button js-ir-modal">Entrar para próxima turma</button>
     </header>
     </div>
     <main>
@@ -48,7 +48,7 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
             </p>
-            <button class="faq__esquerda--entrar">
+            <button class="faq__esquerda--entrar js-ir-modal">
               Entrar para próxima turma
             </button>
           </div>
@@ -177,5 +177,17 @@
     <footer>
       <img src="src\assets\logo.svg" class="logo-footer" />
     </footer>
+    <dialog class="modal">
+      <div class="modal__container">
+        <div class="modal__topo">      
+          <h3>Cadastro </h3>
+        <button class="modal__close"></button>
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <input type="text" placeholder="Digitar email">
+        <button class="modal__button--entrar">Entrar na lista para próxima turma</button>
+      </div>
+     </dialog>
+     <script src="scripts/index.js"> </script>
   </body>
 </html>
