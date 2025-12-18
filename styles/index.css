@@ -45,7 +45,15 @@
   width: 140px;
   border: 1px solid var(--cor-botao);
   color: var(--cor-acento2);
+<<<<<<< HEAD
   font-size: var(--tamanho-texto4);
+=======
+<<<<<<< HEAD
+  font-size: var(--tamanho-texto4);
+=======
+  margin-top: 15px;
+>>>>>>> e3c3c91925442127c2569f11f579c84f4e8add18
+>>>>>>> c32b635a46ee478a5594d2762a45e0e532878c83
 }
 .quem-somos {
   background-color: var(--cor-bg1);
@@ -169,6 +177,13 @@ footer {
 button:hover {
   cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> e3c3c91925442127c2569f11f579c84f4e8add18
+>>>>>>> c32b635a46ee478a5594d2762a45e0e532878c83
 .modal {
   background-color: var(--cor-bg2);
   border: 2px solid var(--cor-botao);
@@ -219,8 +234,9 @@ button:hover {
   padding: 0;
   cursor: pointer;
 }
-.modal__button--entrar:hover,
-.faq__esquerda--entrar:hover,
+
+.modal__button--entrar,
+.faq__esquerda--entrar,
 .prox-habilidades__button:hover {
   background-color: var(--cor-botao-ativo);
 }
